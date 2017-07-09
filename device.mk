@@ -259,6 +259,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.msm8998
 
+# Telephony
+PRODUCT_BOOT_JARS += qti-telephony-common
+
 # Wifi
 PRODUCT_PACKAGES += \
     ipacm \
